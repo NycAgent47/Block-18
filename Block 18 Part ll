@@ -1,0 +1,44 @@
+Functional Test Specifications for The Puppy Bowl Application
+
+Test Specifications
+
+Display Test:
+- Verified that all players are listed with correct details (name, breed, team or "unassigned")
+- Checked that each player has a "See details" and a "Remove" button
+
+Details Button Test:
+- Verified that clicking the "See details" button opens a detailed view showing the player's name, breed, assigned team, and a larger picture.
+- Ensured there is a functional "Back" button to return to the main list
+
+Remove Button Test:
+
+- Confirmed that clicking the "Remove" button removes a player from the roster
+- Ensured the removal happens without a page refresh
+
+
+Purpose: To test the functionality of adding new players to the game roster
+
+Form Functionality Test:
+- Verified that the form has inputs for player name and breed, and a submit button
+- Checked that entering a name and breed and hitting "submit" adds the player to the roster without a page refresh
+
+Validation Test:
+- Checked for proper validation on the form inputs (Example: not allowing empty fields)
+- Removing Player(s)
+
+
+Purpose: To test the removal functionality of players from the roster
+
+Removal Test:
+- Ensured that players can be successfully removed from the roster
+- Confirmed that removal updates the roster immediately without a page refresh
+
+
+Single Player View:
+- Tested that the single-player view shows all teammates of the current player
+- Verified that changing the team assignment through a dropdown is reflected in both the single player view and the main roster without a page refresh
+
+
+Adding Players with Image URL:
+- Tested the functionality of adding a player with an image URL
+- Ensured that the submitted image URL displays as the player's portrait
